@@ -1,16 +1,31 @@
-### Hi there 👋
+```java
 
-<!--
-**sh-x/sh-x** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import galaxy.earth.shadow;
+public class Shadow{
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    static void languages(){
+        String languages = {"Java","TypeScript","C++","Python"};
+        for(byte control = 0; control <= languages.length; control++){
+            System.out.println("I code in :" + languages[0]);
+        }
+    }
+    static void frameworks(){
+        String frameworks = {"Next.JS","Arduino","Express.JS","Pytorch","Android"};
+        for(byte control = 0; control <= frameworks.length; control++){
+            System.out.println("I write in " + frameworks[0] + " framework");
+        }
+    }
+    static void about(){
+        String goals = {"Open Source", "DedSquad"};
+        for(byte control = 0; control <= goals.length; control++){
+            System.out.println("Writing code for" + goals[0]);
+        }
+    }
+    static void main(String args[]){
+       Shadow dark = new Shadow();
+       dark.languages();
+       dark.frameworks();
+       dark.about();
+    }
+}
+```
